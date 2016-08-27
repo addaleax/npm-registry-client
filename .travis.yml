@@ -4,9 +4,8 @@ node_js:
   - "0.10"
   - "0.8"
   - iojs
+  - stable
 script: "npm test"
 sudo: false
 before_install:
   - "npm install -g npm@latest"
-notifications:
-    slack: npm-inc:kRqQjto7YbINqHPb1X6nS3g8
